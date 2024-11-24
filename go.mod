@@ -1,4 +1,4 @@
-module github.com/rattatatat3426/maseyth
+module github.com/rattatatat3426/maseyth1
 
 go 1.21
 
