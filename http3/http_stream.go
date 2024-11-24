@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/quic-go/quic-go"
+	"github.com/rattatatat3426/maseyth1"
 )
 
 // A Stream is a HTTP/3 stream.

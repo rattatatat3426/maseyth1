@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/utils"
 )
 
 // Connection is a UDP connection

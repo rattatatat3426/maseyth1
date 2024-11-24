@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

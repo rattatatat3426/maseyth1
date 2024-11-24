@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/quic-go/quic-go"
+	"github.com/rattatatat3426/maseyth1"
 )
 
 // The HTTPStreamer allows taking over a HTTP/3 stream. The interface is implemented by:

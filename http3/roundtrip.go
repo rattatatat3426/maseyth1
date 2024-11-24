@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/net/http/httpguts"
 
-	"github.com/quic-go/quic-go"
+	"github.com/rattatatat3426/maseyth1"
 )
 
 type roundTripCloser interface {

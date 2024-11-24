@@ -1,9 +1,9 @@
 package logutils
 
 import (
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/wire"
+	"github.com/rattatatat3426/maseyth1/logging"
 )
 
 // ConvertFrame converts a wire.Frame into a logging.Frame.

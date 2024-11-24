@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/quic-go/quic-go/fuzzing/internal/helper"
-	"github.com/quic-go/quic-go/fuzzing/transportparameters"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/rattatatat3426/maseyth1/fuzzing/internal/helper"
+	"github.com/rattatatat3426/maseyth1/fuzzing/transportparameters"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/wire"
 )
 
 func getRandomData(l int) []byte {

@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	mockquic "github.com/quic-go/quic-go/internal/mocks/quic"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/rattatatat3426/maseyth1"
+	mockquic "github.com/rattatatat3426/maseyth1/internal/mocks/quic"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/utils"
+	"github.com/rattatatat3426/maseyth1/quicvarint"
 
 	"github.com/quic-go/qpack"
 

@@ -10,17 +10,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/rattatatat3426/maseyth1/internal/protocol"
+	"github.com/rattatatat3426/maseyth1/internal/utils"
+	"github.com/rattatatat3426/maseyth1/internal/wire"
+	"github.com/rattatatat3426/maseyth1/logging"
 
 	"github.com/francoispqt/gojay"
 )
 
 // Setting of this only works when quic-go is used as a library.
 // When building a binary from this repository, the version can be set using the following go build flag:
-// -ldflags="-X github.com/quic-go/quic-go/qlog.quicGoVersion=foobar"
+// -ldflags="-X github.com/rattatatat3426/maseyth1/qlog.quicGoVersion=foobar"
 var quicGoVersion = "(devel)"
 
 func init() {
@@ -32,7 +32,7 @@ func init() {
 		return
 	}
 	for _, d := range info.Deps {
-		if d.Path == "github.com/quic-go/quic-go" {
+		if d.Path == "github.com/rattatatat3426/maseyth1" {
 			quicGoVersion = d.Version
 			if d.Replace != nil {
 				if len(d.Replace.Version) > 0 {
